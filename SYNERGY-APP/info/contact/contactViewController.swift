@@ -18,6 +18,11 @@ class contactViewController: UIViewController, UICollectionViewDataSource, UICol
       
       let boardPositionArray = ["Chairperson","Vice Chairperson(Technical)","Vice Chairperson(Operations)","General Secretary","Design Director","Events Director","PR Director","Technical Director(ECE)","Technical Director(CSE)"]
       
+    let boardContactArray = ["+91-9786411156","+91-9674060769","+91-9600102105","","","","","",""]
+  
+    
+    let boardMailArray = ["","","","","","","","",""]
+    
       let imageArray = [#imageLiteral(resourceName: "kartik"), #imageLiteral(resourceName: "mayank"), #imageLiteral(resourceName: "sid"),#imageLiteral(resourceName: "shreyas"), #imageLiteral(resourceName: "nikhil"), #imageLiteral(resourceName: "aditya"), #imageLiteral(resourceName: "harika") ,#imageLiteral(resourceName: "madhur") ,#imageLiteral(resourceName: "arun")]
        
        
@@ -42,8 +47,8 @@ class contactViewController: UIViewController, UICollectionViewDataSource, UICol
         cell.boardImage.image = imageArray[indexPath.row]
         cell.boardName.text = boardNameArray[indexPath.row]
         cell.boardPosition.text = boardPositionArray[indexPath.row]
-        
-        
+        cell.boardContact.text = boardContactArray[indexPath.row]
+        cell.boardMail.text = boardMailArray[indexPath.row]
         let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout
         layout?.minimumLineSpacing = 20
         
@@ -89,7 +94,7 @@ class contactViewController: UIViewController, UICollectionViewDataSource, UICol
     
     @IBAction func websiteButtonPressed(_ sender: Any) {
         
-        if let url = URL(string: "https://ietevit.com/accessdenied/") {
+        if let url = URL(string: "http://synergyietevit.com/") {
                    UIApplication.shared.open(url)
                }
         
@@ -124,7 +129,7 @@ class contactViewController: UIViewController, UICollectionViewDataSource, UICol
        {
           // let sendMailErrorAlert = UIAlertController(title: "Could not Send E-Mail ", message: "Your device must have an active email account. Pls go to the Mail app and log in. (or) Contact us at \"ietevit@vit.ac.in\"", delegate: self, cancelButtonTitle: "OK")
       
-        let sendMailErrorAlert = UIAlertController(title: "Could not Send E-Mail", message: "Your device must have an active email account. Pls go to the Mail app and log in. (or) Contact us at \"ietevit@vit.ac.in\"", preferredStyle: UIAlertController.Style.alert)
+        let sendMailErrorAlert = UIAlertController(title: "Could not Send E-Mail", message: "Your device must have an active email account. Please go to the Mail app and log in. (or) Contact us at \"ietevit@vit.ac.in\"", preferredStyle: UIAlertController.Style.alert)
         sendMailErrorAlert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default))
        
         self.present(sendMailErrorAlert, animated: true, completion:nil)

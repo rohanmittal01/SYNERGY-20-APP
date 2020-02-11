@@ -20,7 +20,7 @@ class sponsersCollectionViewController: UIViewController{
     }
     
     @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet weak var pageControl: UIPageControl!
+  
     
     
     let    imageArray = [UIImage(named: "codingNinjas"), UIImage(named: "collegeFever"), UIImage(named: "creativeTim"), UIImage(named: "github"), UIImage(named: "jetbrains"), UIImage(named: "mlh")]
@@ -31,7 +31,7 @@ class sponsersCollectionViewController: UIViewController{
         super.viewDidLoad()
 
         
-         pageControl?.numberOfPages = 6
+      
         // Do any additional setup after loading the view.
     }
     
@@ -85,7 +85,7 @@ extension sponsersCollectionViewController : UICollectionViewDelegate, UICollect
     
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        self.pageControl.currentPage = Int(collectionView.contentOffset.x/CGFloat(view.frame.size.width))
+    //    self.pageControl.currentPage = Int(collectionView.contentOffset.x/CGFloat(view.frame.size.width))
     }
  
 }

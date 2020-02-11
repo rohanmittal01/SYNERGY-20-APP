@@ -100,6 +100,11 @@ class timelineViewController: UIViewController, UITableViewDelegate, UITableView
            day1Outlet.setImage(UIImage(named: "day1 highlighted"), for: UIControl.State.normal)
            
            tableInitiating(day: "day 1")
+        
+        
+   self.Alert(Message: "Please connect to the Internet to observe any updates in the Timeline")
+                
+        
            // Do any additional setup after loading the view.
        }
        
@@ -193,5 +198,20 @@ class timelineViewController: UIViewController, UITableViewDelegate, UITableView
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
+    
+       func Alert(Message: String)
+       {
+           let alert=UIAlertController(title: "Alert", message: Message, preferredStyle: UIAlertController.Style.alert)
+           alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default))
+           self.present(alert, animated: true, completion:nil)
+           
+          
+
+       }
+       
+    
+    
 
 }

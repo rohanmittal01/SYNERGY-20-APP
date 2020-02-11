@@ -13,14 +13,7 @@ class eventswithcollectionViewController: UIViewController{
     
 
     @IBOutlet weak var collectionView: UICollectionView!
-    
-    var imageArray = [UIImage(named: "machine_learning"),UIImage(named: "cyber_security"),
-              UIImage(named: "robotics"),
-          UIImage(named: "augmentedReality"),
-          UIImage(named: "code_Olympia"),
-          UIImage(named: "paper_presentation"),
-          UIImage(named: "hackathon")
-          ]
+ 
     
      var eventnames = ["MACHINE LEARNING", "CYBER SECURITY", "Internet Of Things","UI/UX", "CODE OLYMPIA", "PAPER PRESENTATION", "ACCESS DENIED"]
             

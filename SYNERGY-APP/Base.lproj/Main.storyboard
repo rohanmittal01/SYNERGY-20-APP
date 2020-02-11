@@ -17,21 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GIO-nP-PfA">
-                                <rect key="frame" x="10" y="88" width="355" height="480"/>
+                                <rect key="frame" x="10" y="88" width="394" height="480"/>
                                 <color key="backgroundColor" red="0.15686274510000001" green="0.21176470589999999" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="separatorInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 <color key="sectionIndexBackgroundColor" red="0.94901960780000005" green="0.94509803920000002" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="104" id="GFu-Jv-QkM" customClass="timelineTableViewCell" customModule="SYNERGY" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="355" height="104"/>
+                                        <rect key="frame" x="0.0" y="28" width="394" height="104"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GFu-Jv-QkM" id="Gwv-lQ-a3x">
-                                            <rect key="frame" x="0.0" y="0.0" width="355" height="104"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="104"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8y-qG-z7r">
-                                                    <rect key="frame" x="99" y="57" width="214" height="34"/>
+                                                    <rect key="frame" x="99" y="57" width="253" height="34"/>
                                                     <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
                                                     <color key="textColor" red="0.30196078430000001" green="0.3921568627" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -45,7 +45,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTx-CH-3HN">
-                                                    <rect key="frame" x="99" y="11" width="214" height="52"/>
+                                                    <rect key="frame" x="99" y="11" width="253" height="52"/>
                                                     <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="19"/>
                                                     <color key="textColor" red="0.30196078430000001" green="0.3921568627" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -81,7 +81,7 @@
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffB-so-ZaK">
-                                <rect key="frame" x="0.0" y="568" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="568" width="414" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9k-Qf-gii">
                                         <rect key="frame" x="73" y="5" width="40" height="40"/>
@@ -96,7 +96,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFs-LH-p9f">
-                                        <rect key="frame" x="262" y="5" width="40" height="40"/>
+                                        <rect key="frame" x="301" y="5" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="47g-gW-pAM"/>
                                             <constraint firstAttribute="width" secondItem="NFs-LH-p9f" secondAttribute="height" multiplier="1:1" id="f8W-Rh-CAN"/>
@@ -108,7 +108,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlP-bv-2Mc">
-                                        <rect key="frame" x="167.5" y="5" width="40" height="40"/>
+                                        <rect key="frame" x="187" y="5" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Qo0-9c-VRj"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="WgK-cy-Xkg"/>
@@ -258,7 +258,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="settingsTable" destination="dh7-VQ-THu" id="Ir6-Bz-qTj"/>
-                        <segue destination="OI4-sE-erY" kind="show" identifier="about_iete" id="EnL-ek-rvJ"/>
+                        <segue destination="fWT-AQ-YEY" kind="showDetail" identifier="about_iete" id="EnL-ek-rvJ"/>
                         <segue destination="Mvq-1U-fHN" kind="show" identifier="Contact_Us" id="fJG-nu-q1X"/>
                         <segue destination="Nv6-w8-Geb" kind="show" identifier="developer_info" id="ZIl-q7-42o"/>
                     </connections>
@@ -275,7 +275,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xPE-yx-53u">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsVerticalScrollIndicator="NO" indicatorStyle="white" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xPE-yx-53u">
                                 <rect key="frame" x="0.0" y="97" width="375" height="479"/>
                                 <color key="backgroundColor" red="0.15686274510000001" green="0.21176470589999999" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -288,7 +288,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="WLy-1o-EAn" customClass="sponsorsCollectionViewCell" customModule="sponsorsTesting" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="WLy-1o-EAn" customClass="sponsorsCollectionViewCell" customModule="SYNERGY" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="12" width="374" height="455"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="huE-De-gpj">
@@ -332,13 +332,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="eRd-gE-Et5">
-                                <rect key="frame" x="112.5" y="523" width="150" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="Cgw-eV-rch"/>
-                                    <constraint firstAttribute="width" constant="150" id="yDA-sp-e9B"/>
-                                </constraints>
-                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="0.15686274510000001" green="0.21176470589999999" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -346,10 +339,8 @@
                             <constraint firstItem="dmE-xl-01j" firstAttribute="centerX" secondItem="qfN-WB-r7x" secondAttribute="centerX" id="D6b-xZ-Hgh"/>
                             <constraint firstItem="xPE-yx-53u" firstAttribute="leading" secondItem="Vq1-z0-iqO" secondAttribute="leading" id="DJs-4W-IhJ"/>
                             <constraint firstItem="xPE-yx-53u" firstAttribute="top" secondItem="dmE-xl-01j" secondAttribute="bottom" constant="-38" id="KvU-YM-yVV"/>
-                            <constraint firstItem="eRd-gE-Et5" firstAttribute="centerX" secondItem="qfN-WB-r7x" secondAttribute="centerX" id="g8Q-PS-hsT"/>
                             <constraint firstItem="xPE-yx-53u" firstAttribute="centerY" secondItem="qfN-WB-r7x" secondAttribute="centerY" constant="3" id="gAe-G8-v2g"/>
                             <constraint firstItem="xPE-yx-53u" firstAttribute="centerX" secondItem="qfN-WB-r7x" secondAttribute="centerX" id="xLj-kX-EhY"/>
-                            <constraint firstItem="eRd-gE-Et5" firstAttribute="top" secondItem="xPE-yx-53u" secondAttribute="bottom" constant="-53" id="y4J-k6-uJZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Vq1-z0-iqO"/>
                     </view>
@@ -366,7 +357,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="xPE-yx-53u" id="rqN-BS-4A3"/>
-                        <outlet property="pageControl" destination="eRd-gE-Et5" id="1Be-zc-gdB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BN3-iF-1pX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -519,7 +509,7 @@
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="synergylogo" translatesAutoresizingMaskIntoConstraints="NO" id="blv-RX-j8P">
-                                <rect key="frame" x="18" y="209" width="339" height="102.5"/>
+                                <rect key="frame" x="18" y="209" width="339" height="102.50000000000003"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="blv-RX-j8P" secondAttribute="height" multiplier="142:43" id="OXs-CO-8IO"/>
                                 </constraints>
@@ -741,7 +731,7 @@
             </objects>
             <point key="canvasLocation" x="-1242" y="1303"/>
         </scene>
-        <!--Synergy'20-->
+        <!--About IETE-->
         <scene sceneID="kIj-mX-yyt">
             <objects>
                 <viewController id="OI4-sE-erY" customClass="aboutViewController" customModule="SYNERGY" sceneMemberID="viewController">
@@ -753,10 +743,10 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="1846"/>
                                 <subviews>
                                     <view autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fmi-gU-yUZ" userLabel="scrollViewInternalView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1780"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1771"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="rGe-ib-uFp">
-                                                <rect key="frame" x="0.0" y="16" width="414" height="1725"/>
+                                                <rect key="frame" x="0.0" y="16" width="414" height="1735"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vit_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ntp-Qo-2nE">
                                                         <rect key="frame" x="55" y="0.0" width="304" height="272"/>
@@ -808,10 +798,10 @@
                                                         </constraints>
                                                     </imageView>
                                                     <textView multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="JKN-Ak-qG7">
-                                                        <rect key="frame" x="5" y="1475" width="404" height="250"/>
+                                                        <rect key="frame" x="5" y="1475" width="404" height="260"/>
                                                         <color key="backgroundColor" red="0.15686274510000001" green="0.21176470589999999" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="250" id="BoF-mK-e3b"/>
+                                                            <constraint firstAttribute="height" constant="260" id="BoF-mK-e3b"/>
                                                             <constraint firstAttribute="width" constant="404" id="Ug1-ui-Tsn"/>
                                                         </constraints>
                                                         <string key="text">Synergy 2020 is an International Technical Symposium organized by Institution of Electronics and Telecommunication Engineers (IETE-ISF) in association with School of Electronics and Telecommunication Engineering - VIT University, Vellore. Symposium offers a one-of-a-kind experience to students by providing an array of opportunities under one umbrella. The idea behind Synergy'19 is to train students in future forward technologies through workshops and provide global exposure and esoteric knowledge through guest lectures delivered by eminent personalities.Synergy'20 looks forward to promote; ”Envisioning the Future”, which not only embraces one's desire to become better, but also enables one to be able to explain the myriad of emotions a person experiences on the path to success and spread the word.</string>
@@ -852,7 +842,7 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.15686274510000001" green="0.21176470589999999" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="rGe-ib-uFp" secondAttribute="bottom" constant="39" id="R4c-FH-N63"/>
+                                            <constraint firstAttribute="bottom" secondItem="rGe-ib-uFp" secondAttribute="bottom" constant="20" id="R4c-FH-N63"/>
                                             <constraint firstAttribute="trailing" secondItem="rGe-ib-uFp" secondAttribute="trailing" id="bRu-f6-TOv"/>
                                             <constraint firstItem="rGe-ib-uFp" firstAttribute="centerX" secondItem="fmi-gU-yUZ" secondAttribute="centerX" id="fbP-ZC-SYO"/>
                                             <constraint firstItem="rGe-ib-uFp" firstAttribute="top" secondItem="fmi-gU-yUZ" secondAttribute="top" constant="16" id="iff-hm-Ln7"/>
@@ -880,7 +870,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tsc-3K-cwg"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Synergy'20" id="dh6-3o-7K1"/>
+                    <navigationItem key="navigationItem" title="About IETE" id="dh6-3o-7K1"/>
                     <size key="freeformSize" width="414" height="1910"/>
                     <connections>
                         <outlet property="text1" destination="Nm2-6L-Es2" id="0eB-iC-Cdn"/>
@@ -890,9 +880,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FWb-Ns-gKx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1370" y="2593"/>
+            <point key="canvasLocation" x="-432" y="2592.5037481259374"/>
         </scene>
-        <!--Synergy'20-->
+        <!--Contact Us-->
         <scene sceneID="MGF-gT-rdy">
             <objects>
                 <viewController id="Mvq-1U-fHN" customClass="contactViewController" customModule="SYNERGY" sceneMemberID="viewController">
@@ -930,7 +920,7 @@
                                                         <constraint firstAttribute="height" constant="47" id="GkZ-aw-ZWg"/>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="221" id="xVi-Z5-Iw4"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -940,7 +930,7 @@
                                                         <constraint firstAttribute="height" constant="44" id="4yT-nk-AvJ"/>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="221" id="fd2-cr-51n"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -961,7 +951,7 @@
                                                         <constraint firstAttribute="height" constant="34" id="wkg-Bf-yGl"/>
                                                     </constraints>
                                                     <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" textContentType="tel"/>
                                                 </textField>
                                             </subviews>
@@ -1069,16 +1059,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0ey-YO-APR"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Synergy'20" id="YDe-B7-iQZ"/>
+                    <navigationItem key="navigationItem" title="Contact Us" id="YDe-B7-iQZ"/>
                     <connections>
                         <outlet property="websiteButton" destination="D9O-IZ-c8S" id="eiT-2V-q7t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qYp-hy-yfb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-598" y="2034"/>
+            <point key="canvasLocation" x="340" y="2033.433283358321"/>
         </scene>
-        <!--Synergy'20-->
+        <!--Developer Info-->
         <scene sceneID="faj-lB-wEc">
             <objects>
                 <viewController id="Nv6-w8-Geb" customClass="developerInfoViewController" customModule="SYNERGY" sceneMemberID="viewController">
@@ -1116,7 +1106,7 @@
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="221" id="ELy-2Y-Mvy"/>
                                                         <constraint firstAttribute="height" constant="47" id="H4k-TW-xDC"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="21"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -1126,7 +1116,7 @@
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="221" id="SrX-c8-JQ3"/>
                                                         <constraint firstAttribute="height" constant="44" id="fgW-qY-cgH"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -1147,7 +1137,7 @@
                                                         <constraint firstAttribute="width" constant="180" id="WsZ-yk-kJi"/>
                                                     </constraints>
                                                     <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" textContentType="tel"/>
                                                 </textField>
                                             </subviews>
@@ -1190,14 +1180,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iZ1-0E-3ph"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Synergy'20" id="xXt-ZQ-oUH"/>
+                    <navigationItem key="navigationItem" title="Developer Info" id="xXt-ZQ-oUH"/>
                     <connections>
                         <outlet property="collectionView" destination="pZo-sY-qWy" id="OLu-Xi-Uym"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WuM-zg-u0J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="110" y="2034"/>
+            <point key="canvasLocation" x="1048.8" y="2033.433283358321"/>
         </scene>
         <!--Synergy'20-->
         <scene sceneID="HZx-Bq-DB8">
@@ -1331,11 +1321,11 @@
             </objects>
             <point key="canvasLocation" x="1874" y="-359"/>
         </scene>
-        <!--Item-->
+        <!--Events-->
         <scene sceneID="eSe-Cy-lKK">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lIp-g0-uuU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="list.bullet" catalog="system" selectedImage="list.bullet.below.rectangle" id="Jis-Un-DNA"/>
+                    <tabBarItem key="tabBarItem" title="Events" image="list.bullet" catalog="system" selectedImage="list.bullet.below.rectangle" id="Jis-Un-DNA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nT2-NH-c4p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -1376,6 +1366,28 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NDM-v5-vhD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="934" y="1303"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gQf-Wr-Frf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fWT-AQ-YEY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4F8-uk-xpN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.1176470588" green="0.1215686275" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OI4-sE-erY" kind="relationship" relationship="rootViewController" id="0FA-du-Hvk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ff-ke-Kdy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1370.4000000000001" y="2592.953523238381"/>
         </scene>
     </scenes>
     <resources>
