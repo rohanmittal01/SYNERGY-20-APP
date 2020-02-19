@@ -1,5 +1,6 @@
 
 import UIKit
+import SafariServices
 class infoViewController: UIViewController,UITableViewDataSource,UITableViewDelegate{
     
     @IBOutlet weak var settingsTable: UITableView!
@@ -13,10 +14,14 @@ class infoViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
     @IBAction func registerButton(_ sender: Any) {
         
-        if let url = URL(string: "http://info.vit.ac.in/events-vit/Synergy-2020/apply.asp") {
-                          UIApplication.shared.open(url)
-                      }
-               
+  
+          guard let url = URL(string: "http://info.vit.ac.in/events-vit/Synergy-2020/apply.asp") else {
+                return
+            }
+
+            let safariVC = SFSafariViewController(url: url)
+            present(safariVC, animated: true, completion: nil)
+        
         
     }
     

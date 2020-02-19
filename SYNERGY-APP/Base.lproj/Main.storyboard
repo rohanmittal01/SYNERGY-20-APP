@@ -17,21 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GIO-nP-PfA">
-                                <rect key="frame" x="10" y="88" width="394" height="480"/>
+                                <rect key="frame" x="10" y="88" width="355" height="480"/>
                                 <color key="backgroundColor" red="0.15686274510000001" green="0.21176470589999999" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="separatorColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="separatorInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 <color key="sectionIndexBackgroundColor" red="0.94901960780000005" green="0.94509803920000002" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="104" id="GFu-Jv-QkM" customClass="timelineTableViewCell" customModule="SYNERGY" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="394" height="104"/>
+                                        <rect key="frame" x="0.0" y="28" width="355" height="104"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GFu-Jv-QkM" id="Gwv-lQ-a3x">
-                                            <rect key="frame" x="0.0" y="0.0" width="394" height="104"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="355" height="104"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8y-qG-z7r">
-                                                    <rect key="frame" x="99" y="57" width="253" height="34"/>
+                                                    <rect key="frame" x="99" y="57" width="214" height="34"/>
                                                     <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
                                                     <color key="textColor" red="0.30196078430000001" green="0.3921568627" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -45,7 +45,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTx-CH-3HN">
-                                                    <rect key="frame" x="99" y="11" width="253" height="52"/>
+                                                    <rect key="frame" x="99" y="11" width="214" height="52"/>
                                                     <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="19"/>
                                                     <color key="textColor" red="0.30196078430000001" green="0.3921568627" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -81,7 +81,7 @@
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffB-so-ZaK">
-                                <rect key="frame" x="0.0" y="568" width="414" height="50"/>
+                                <rect key="frame" x="0.0" y="568" width="375" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9k-Qf-gii">
                                         <rect key="frame" x="73" y="5" width="40" height="40"/>
@@ -96,7 +96,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFs-LH-p9f">
-                                        <rect key="frame" x="301" y="5" width="40" height="40"/>
+                                        <rect key="frame" x="262" y="5" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="47g-gW-pAM"/>
                                             <constraint firstAttribute="width" secondItem="NFs-LH-p9f" secondAttribute="height" multiplier="1:1" id="f8W-Rh-CAN"/>
@@ -108,7 +108,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlP-bv-2Mc">
-                                        <rect key="frame" x="187" y="5" width="40" height="40"/>
+                                        <rect key="frame" x="167.5" y="5" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Qo0-9c-VRj"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="WgK-cy-Xkg"/>
@@ -125,12 +125,10 @@
                                     <constraint firstItem="T9k-Qf-gii" firstAttribute="centerY" secondItem="ffB-so-ZaK" secondAttribute="centerY" id="7Gw-wz-lG9"/>
                                     <constraint firstAttribute="height" constant="50" id="F9d-31-UaX"/>
                                     <constraint firstItem="tlP-bv-2Mc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="T9k-Qf-gii" secondAttribute="trailing" constant="8" symbolic="YES" id="MQ0-7z-mxu"/>
-                                    <constraint firstAttribute="width" secondItem="ffB-so-ZaK" secondAttribute="height" multiplier="207:25" id="SBu-Id-lUT"/>
                                     <constraint firstItem="NFs-LH-p9f" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tlP-bv-2Mc" secondAttribute="trailing" constant="8" symbolic="YES" id="XjW-tv-yBb"/>
                                     <constraint firstItem="NFs-LH-p9f" firstAttribute="centerY" secondItem="ffB-so-ZaK" secondAttribute="centerY" id="ZWP-Zj-LVd"/>
                                     <constraint firstItem="tlP-bv-2Mc" firstAttribute="centerX" secondItem="ffB-so-ZaK" secondAttribute="centerX" id="aii-wo-gma"/>
                                     <constraint firstAttribute="trailing" secondItem="NFs-LH-p9f" secondAttribute="trailing" constant="73" id="bMO-JA-mxB"/>
-                                    <constraint firstAttribute="width" constant="414" id="iQp-uA-bOi"/>
                                     <constraint firstItem="T9k-Qf-gii" firstAttribute="leading" secondItem="ffB-so-ZaK" secondAttribute="leading" constant="73" id="oBd-Xn-Bpe"/>
                                     <constraint firstItem="tlP-bv-2Mc" firstAttribute="centerY" secondItem="ffB-so-ZaK" secondAttribute="centerY" id="rLz-ee-mZW"/>
                                 </constraints>
@@ -142,6 +140,7 @@
                             <constraint firstItem="ffB-so-ZaK" firstAttribute="leading" secondItem="5Dk-uQ-1pZ" secondAttribute="leading" id="2A4-uZ-vxe"/>
                             <constraint firstItem="GIO-nP-PfA" firstAttribute="top" secondItem="KOd-dE-XgK" secondAttribute="top" constant="88" id="6FG-Ul-2aD"/>
                             <constraint firstItem="5Dk-uQ-1pZ" firstAttribute="trailing" secondItem="GIO-nP-PfA" secondAttribute="trailing" constant="10" id="QyO-yn-fBF"/>
+                            <constraint firstItem="ffB-so-ZaK" firstAttribute="width" secondItem="KOd-dE-XgK" secondAttribute="width" id="ULF-39-Q6w"/>
                             <constraint firstItem="ffB-so-ZaK" firstAttribute="bottom" secondItem="5Dk-uQ-1pZ" secondAttribute="bottom" id="XeD-cI-pyQ"/>
                             <constraint firstItem="GIO-nP-PfA" firstAttribute="leading" secondItem="5Dk-uQ-1pZ" secondAttribute="leading" constant="10" id="hib-KG-2zX"/>
                             <constraint firstItem="ffB-so-ZaK" firstAttribute="trailing" secondItem="5Dk-uQ-1pZ" secondAttribute="trailing" id="pyE-2W-8Z7"/>
@@ -509,7 +508,7 @@
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="synergylogo" translatesAutoresizingMaskIntoConstraints="NO" id="blv-RX-j8P">
-                                <rect key="frame" x="18" y="209" width="339" height="102.50000000000003"/>
+                                <rect key="frame" x="18" y="209" width="339" height="102.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="blv-RX-j8P" secondAttribute="height" multiplier="142:43" id="OXs-CO-8IO"/>
                                 </constraints>

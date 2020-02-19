@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>731290066354-n4cm48tr5p0hchr54ekbkn25dlqdeg82.apps.googleusercontent.com</string>
+	<string>731290066354-dcjm7psr3sj74r199eh5i963e5qmrg7u.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.731290066354-n4cm48tr5p0hchr54ekbkn25dlqdeg82</string>
+	<string>com.googleusercontent.apps.731290066354-dcjm7psr3sj74r199eh5i963e5qmrg7u</string>
 	<key>API_KEY</key>
 	<string>AIzaSyC6SvHIEXagcKaAEgophn60_ixTssHr_80</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>rohan.SYNERGY-AP</string>
+	<string>ambika.SYNERGYAPPLiCATION</string>
 	<key>PROJECT_ID</key>
 	<string>synergy-8960e</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:731290066354:ios:21ed0a26abca7b99e9d8ab</string>
+	<string>1:731290066354:ios:2607451a0645625de9d8ab</string>
 	<key>DATABASE_URL</key>
 	<string>https://synergy-8960e.firebaseio.com</string>
 </dict>

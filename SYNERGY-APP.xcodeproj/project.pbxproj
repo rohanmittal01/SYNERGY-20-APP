@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		34BF623D66207C0EBDD86C3B /* Pods_SYNERGY_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9707BCE208D345364C243DD4 /* Pods_SYNERGY_APP.framework */; };
 		BA2BA03F23EA9FEA00282A89 /* checkInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BA03E23EA9FEA00282A89 /* checkInternet.swift */; };
-		BA2BA04223EAA36100282A89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA2BA04123EAA36100282A89 /* GoogleService-Info.plist */; };
 		BA2BA04423EAAA1100282A89 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2BA04323EAAA1100282A89 /* WebKit.framework */; };
 		BA2BA04623EAAA1700282A89 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2BA04523EAAA1700282A89 /* MessageUI.framework */; };
 		BA2BA04823EAAAD200282A89 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2BA04723EAAAD200282A89 /* GoogleUtilities.framework */; };
@@ -21,6 +20,7 @@
 		BA2BA05B23EB0E6D00282A89 /* contactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BA05A23EB0E6D00282A89 /* contactCollectionViewCell.swift */; };
 		BA2BA05E23EB1E2900282A89 /* developerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BA05D23EB1E2900282A89 /* developerInfoViewController.swift */; };
 		BA2BA06023EB1E9800282A89 /* developerInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BA05F23EB1E9800282A89 /* developerInfoCollectionViewCell.swift */; };
+		BA4210D823F3B4C4006F6FD8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA4210D723F3B4C4006F6FD8 /* GoogleService-Info.plist */; };
 		BA9D89FA23E9C7C500FB90CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D89F923E9C7C500FB90CE /* AppDelegate.swift */; };
 		BA9D89FC23E9C7C500FB90CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9D89FB23E9C7C500FB90CE /* SceneDelegate.swift */; };
 		BA9D8A0123E9C7C500FB90CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9D89FF23E9C7C500FB90CE /* Main.storyboard */; };
@@ -42,7 +42,6 @@
 		719C19503D022A36D895022F /* Pods-SYNERGY-APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYNERGY-APP.release.xcconfig"; path = "Target Support Files/Pods-SYNERGY-APP/Pods-SYNERGY-APP.release.xcconfig"; sourceTree = "<group>"; };
 		9707BCE208D345364C243DD4 /* Pods_SYNERGY_APP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYNERGY_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2BA03E23EA9FEA00282A89 /* checkInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkInternet.swift; sourceTree = "<group>"; };
-		BA2BA04123EAA36100282A89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BA2BA04323EAAA1100282A89 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		BA2BA04523EAAA1700282A89 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BA2BA04723EAAAD200282A89 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +54,7 @@
 		BA2BA05D23EB1E2900282A89 /* developerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developerInfoViewController.swift; sourceTree = "<group>"; };
 		BA2BA05F23EB1E9800282A89 /* developerInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developerInfoCollectionViewCell.swift; sourceTree = "<group>"; };
 		BA2BA06723EB4C7300282A89 /* SYNERGY-APP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYNERGY-APP-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA4210D723F3B4C4006F6FD8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BA9D89F623E9C7C500FB90CE /* SYNERGY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYNERGY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9D89F923E9C7C500FB90CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9D89FB23E9C7C500FB90CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 				BA9D8A0223E9C7C700FB90CE /* Assets.xcassets */,
 				BA9D8A0423E9C7C700FB90CE /* LaunchScreen.storyboard */,
 				BA9D8A0723E9C7C700FB90CE /* Info.plist */,
-				BA2BA04123EAA36100282A89 /* GoogleService-Info.plist */,
+				BA4210D723F3B4C4006F6FD8 /* GoogleService-Info.plist */,
 			);
 			path = "SYNERGY-APP";
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9D8A0623E9C7C700FB90CE /* LaunchScreen.storyboard in Resources */,
-				BA2BA04223EAA36100282A89 /* GoogleService-Info.plist in Resources */,
+				BA4210D823F3B4C4006F6FD8 /* GoogleService-Info.plist in Resources */,
 				BA9D8A0323E9C7C700FB90CE /* Assets.xcassets in Resources */,
 				BA9D8A0123E9C7C500FB90CE /* Main.storyboard in Resources */,
 			);
@@ -458,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -512,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -529,18 +529,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V4FPAZXWV3;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = UR6YK7YZH7;
 				INFOPLIST_FILE = "SYNERGY-APP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rohan.SYNERGY-AP";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = ambika.SYNERGYAPPLiCATION;
 				PRODUCT_NAME = SYNERGY;
 				SWIFT_OBJC_BRIDGING_HEADER = "SYNERGY-APP/events/SYNERGY-APP-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -551,17 +553,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SLQAQ6UNLD;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = UR6YK7YZH7;
 				INFOPLIST_FILE = "SYNERGY-APP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "rohan.SYNERGY-iOSAPP";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = ambika.SYNERGYAPPLiCATION;
 				PRODUCT_NAME = SYNERGY;
 				SWIFT_OBJC_BRIDGING_HEADER = "SYNERGY-APP/events/SYNERGY-APP-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -9,6 +9,7 @@
 import UIKit
 import Foundation
 import MessageUI
+import SafariServices
 
 class contactViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, MFMailComposeViewControllerDelegate {
   
@@ -64,15 +65,24 @@ class contactViewController: UIViewController, UICollectionViewDataSource, UICol
     
     @IBAction func fbButtonPressed(_ sender: Any) {
         
-        let fbURLWeb: NSURL = NSURL(string: "https://www.facebook.com/ieteisf/")!
         let fbURLId: NSURL = NSURL(string: "fb://profile/293054244039042")!
         if(UIApplication.shared.canOpenURL(fbURLId as URL) )
         {
             UIApplication.shared.open(fbURLId as URL)
         }
         else{
-            UIApplication.shared.open(fbURLWeb as URL)
+          
+            guard let url = URL(string: "https://www.facebook.com/ieteisf/") else {
+                       return
+                   }
+
+                   let safariVC = SFSafariViewController(url: url)
+                   present(safariVC, animated: true, completion: nil)
+                  
+            
         }
+        
+        
         
     }
     
@@ -80,24 +90,39 @@ class contactViewController: UIViewController, UICollectionViewDataSource, UICol
     
     @IBAction func instaButtonPressed(_ sender: Any) {
         
-        let instagramHooks = "https://www.instagram.com/iete_vit/"
-                      let instagramUrl = NSURL(string: instagramHooks)
-                      if UIApplication.shared.canOpenURL(instagramUrl! as URL) {
-                          UIApplication.shared.openURL(instagramUrl! as URL)
+                      let instagramUrl = NSURL(string: "https://www.instagram.com/iete_vit/")
+        if UIApplication.shared.canOpenURL(instagramUrl! as URL) {
+            
+          guard let url = URL(string: "https://www.instagram.com/iete_vit/")
+                                    else {
+                                            return
+                                        }
+                                        let safariVC = SFSafariViewController(url: url)
+                                        present(safariVC, animated: true, completion: nil)
+            
                       } else {
                           //redirect to safari because the user doesn't have Instagram
-                          UIApplication.shared.openURL(NSURL(string: "https://www.instagram.com/iete_vit/")! as URL)
-                      }
+                        guard let url = URL(string: "https://www.instagram.com/iete_vit/")
+                            else {
+                                    return
+                                }
+                                let safariVC = SFSafariViewController(url: url)
+                                present(safariVC, animated: true, completion: nil)
+        
+        }
         
     }
     
     
     @IBAction func websiteButtonPressed(_ sender: Any) {
         
-        if let url = URL(string: "http://synergyietevit.com/") {
-                   UIApplication.shared.open(url)
-               }
-        
+
+        guard let url = URL(string: "http://synergyietevit.com/") else {
+             return
+         }
+
+         let safariVC = SFSafariViewController(url: url)
+         present(safariVC, animated: true, completion: nil)
     }
     
     
