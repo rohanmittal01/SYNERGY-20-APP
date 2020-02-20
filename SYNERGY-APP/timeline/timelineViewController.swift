@@ -15,14 +15,27 @@ class timelineViewController: UIViewController, UITableViewDelegate, UITableView
     
     @IBAction func registerButton(_ sender: Any) {
         
-    guard let url = URL(string: "http://info.vit.ac.in/events-vit/Synergy-2020/apply.asp") else {
+   guard let url = URL(string: "http://info.vit.ac.in/events-vit/Synergy-2020/apply.asp") else {
              return
          }
 
          let safariVC = SFSafariViewController(url: url)
          present(safariVC, animated: true, completion: nil)
+
+    }
+    
+    
+    @IBAction func liveChat(_ sender: Any) {
+        
+        guard let url = URL(string: "https://tawk.to/chat/5c3db6b351410568a106b27e/default") else {
+                   return
+               }
+
+               let safariVC = SFSafariViewController(url: url)
+               present(safariVC, animated: true, completion: nil)
         
     }
+    
     
     
     @IBOutlet weak var timelineTable: UITableView!
@@ -213,8 +226,13 @@ class timelineViewController: UIViewController, UITableViewDelegate, UITableView
           
 
        }
-       
-    
-    
 
+}
+
+extension timelineViewController: SFSafariViewControllerDelegate{
+    
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
 }

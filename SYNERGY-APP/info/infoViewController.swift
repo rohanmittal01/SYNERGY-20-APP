@@ -27,6 +27,18 @@ class infoViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
     
     
+    @IBAction func liveChat(_ sender: Any) {
+        
+        guard let url = URL(string: "https://tawk.to/chat/5c3db6b351410568a106b27e/default") else {
+                   return
+               }
+
+               let safariVC = SFSafariViewController(url: url)
+               present(safariVC, animated: true, completion: nil)
+        
+    }
+    
+    
     
     
     
@@ -119,4 +131,13 @@ class infoViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
     
 
+}
+
+
+extension infoViewController: SFSafariViewControllerDelegate{
+    
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
 }

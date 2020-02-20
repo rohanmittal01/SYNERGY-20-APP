@@ -12,7 +12,6 @@
 		BA2BA04423EAAA1100282A89 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2BA04323EAAA1100282A89 /* WebKit.framework */; };
 		BA2BA04623EAAA1700282A89 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2BA04523EAAA1700282A89 /* MessageUI.framework */; };
 		BA2BA04823EAAAD200282A89 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2BA04723EAAAD200282A89 /* GoogleUtilities.framework */; };
-		BA2BA04E23EAAE0000282A89 /* liveChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BA04D23EAAE0000282A89 /* liveChatViewController.swift */; };
 		BA2BA05123EAF61E00282A89 /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BA05023EAF61E00282A89 /* infoViewController.swift */; };
 		BA2BA05423EAF6BE00282A89 /* infoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BA05323EAF6BE00282A89 /* infoTableViewCell.swift */; };
 		BA2BA05623EAF94200282A89 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2BA05523EAF94200282A89 /* aboutViewController.swift */; };
@@ -45,7 +44,6 @@
 		BA2BA04323EAAA1100282A89 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		BA2BA04523EAAA1700282A89 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BA2BA04723EAAAD200282A89 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA2BA04D23EAAE0000282A89 /* liveChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liveChatViewController.swift; sourceTree = "<group>"; };
 		BA2BA05023EAF61E00282A89 /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
 		BA2BA05323EAF6BE00282A89 /* infoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoTableViewCell.swift; sourceTree = "<group>"; };
 		BA2BA05523EAF94200282A89 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
@@ -119,14 +117,6 @@
 			path = Register;
 			sourceTree = "<group>";
 		};
-		BA2BA04F23EAF2B300282A89 /* LiveChat */ = {
-			isa = PBXGroup;
-			children = (
-				BA2BA04D23EAAE0000282A89 /* liveChatViewController.swift */,
-			);
-			path = LiveChat;
-			sourceTree = "<group>";
-		};
 		BA2BA05223EAF69C00282A89 /* info */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +186,6 @@
 				BA9D89FF23E9C7C500FB90CE /* Main.storyboard */,
 				BA2BA05223EAF69C00282A89 /* info */,
 				BADFA2ED23EFDE4B00D89564 /* sponsors */,
-				BA2BA04F23EAF2B300282A89 /* LiveChat */,
 				BA2BA06823EB4C7A00282A89 /* events */,
 				BA2BA04023EA9FF500282A89 /* Register */,
 				BACD05DA23E9D3650010FB07 /* home */,
@@ -369,7 +358,6 @@
 				BA2BA05E23EB1E2900282A89 /* developerInfoViewController.swift in Sources */,
 				BACD05E323E9F9720010FB07 /* tableModel.swift in Sources */,
 				BA2BA05B23EB0E6D00282A89 /* contactCollectionViewCell.swift in Sources */,
-				BA2BA04E23EAAE0000282A89 /* liveChatViewController.swift in Sources */,
 				BA9D89FA23E9C7C500FB90CE /* AppDelegate.swift in Sources */,
 				BACD05E523E9F9A10010FB07 /* timelineTableViewCell.swift in Sources */,
 				BADFA2F023EFDE5A00D89564 /* sponsorsCollectionViewCell.swift in Sources */,

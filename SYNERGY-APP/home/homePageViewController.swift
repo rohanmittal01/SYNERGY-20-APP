@@ -43,6 +43,18 @@ class homePageViewController: UIViewController {
     }
     
     
+    @IBAction func liveChat(_ sender: Any) {
+        
+        guard let url = URL(string: "https://tawk.to/chat/5c3db6b351410568a106b27e/default") else {
+                   return
+               }
+
+               let safariVC = SFSafariViewController(url: url)
+               present(safariVC, animated: true, completion: nil)
+        
+    }
+    
+    
     
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -181,4 +193,12 @@ class homePageViewController: UIViewController {
     }
     */
 
+}
+
+extension homePageViewController: SFSafariViewControllerDelegate{
+    
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
 }
